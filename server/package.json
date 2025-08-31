@@ -1,0 +1,16 @@
+{
+  "name":"filesend-backend",
+"version":"1.0.0",
+"main":"index.js",
+  "type":"module",
+  "scripts":{
+    "start":"node index.js"
+  },
+  "dependecies":{
+    "express":"^4018.2",
+    "pg":"^8.11.3",
+    "multer":"^1.4.5",
+    "aws-sdk":"^2.1481.0",
+    "dotenv":"^16.3.1"
+  }
+}
